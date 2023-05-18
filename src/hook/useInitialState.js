@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const useInitialState = () => {
   const [state, setState] = useState({
-    token: null,
+    token: window.localStorage.getItem("token") || null,
   });
 
   const login = async (data) => {
@@ -24,6 +24,7 @@ const useInitialState = () => {
           ...state,
           token: result.token,
         });
+        window.localStorage.setItem("token", result.token);
 
         return true;
       }

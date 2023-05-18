@@ -4,7 +4,6 @@ import Login from "../components/Login.jsx";
 
 const Home = () => {
   const { state } = useContext(AppContext);
-  console.log(state.token);
   return (
     <>
       {state.token === null ? (
