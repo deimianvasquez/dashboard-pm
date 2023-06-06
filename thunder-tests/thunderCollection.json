@@ -4,6 +4,14 @@
     "colName": "PManager",
     "created": "2023-05-18T05:12:10.492Z",
     "sortNum": 10000,
-    "folders": []
+    "folders": [
+      {
+        "_id": "35c7d30d-ffe7-466b-9fd3-f3d9c159cde1",
+        "name": "Auth",
+        "containerId": "",
+        "created": "2023-05-20T02:15:18.989Z",
+        "sortNum": 10000
+      }
+    ]
   }
 ]

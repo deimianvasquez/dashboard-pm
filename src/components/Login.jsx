@@ -8,9 +8,7 @@ const initialState = {
 
 const Login = () => {
   const [user, setUser] = useState(initialState);
-
   const { email, password } = user;
-
   const { login } = useContext(AppContext);
 
   const handleChange = ({ target }) => {
@@ -20,12 +18,11 @@ const Login = () => {
     });
   };
 
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
     login(user);
-  }
+  };
 
   return (
     <>

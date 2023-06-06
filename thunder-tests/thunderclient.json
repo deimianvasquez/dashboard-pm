@@ -4,25 +4,40 @@
     "colId": "1c491175-792e-418d-a5b4-35901cd3165d",
     "containerId": "",
     "name": "prueba",
-    "url": "https://breathecode.herokuapp.com/v1/assignment/academy/cohort/546/task?limit=10",
+    "url": "https://breathecode.herokuapp.com/v1/admissions/academy/cohort/user?cohorts=caracas-pt-42&roles=STUDENT&tasks=True",
     "method": "GET",
     "sortNum": 20000,
     "created": "2023-05-18T05:19:15.472Z",
-    "modified": "2023-05-18T06:03:51.827Z",
+    "modified": "2023-05-22T03:09:49.038Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "Token ed9ff6378c908c9a3cfbe12ffcebd989e6a0356d"
+        "value": "Token 6662f5b24599031861a64ca2730662002360e058"
       },
       {
         "name": "Academy",
         "value": "2"
+      },
+      {
+        "name": "tasks",
+        "value": "",
+        "isDisabled": true
       }
     ],
     "params": [
       {
-        "name": "limit",
-        "value": "10",
+        "name": "cohorts",
+        "value": "caracas-pt-42",
+        "isPath": false
+      },
+      {
+        "name": "roles",
+        "value": "STUDENT",
+        "isPath": false
+      },
+      {
+        "name": "tasks",
+        "value": "True",
         "isPath": false
       }
     ],
